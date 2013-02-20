@@ -7,7 +7,7 @@
 how to use
 =========
 
-
+```
 var config = {
 	host:"www.top100.cn",
 	path:'/artist/info-agr4depb38r.shtml',
@@ -107,3 +107,4 @@ var config = {
 
 module.exports = config;
 
+```
