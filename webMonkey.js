@@ -209,7 +209,6 @@ WebMonkey.prototype = {
 		var req = null;
 		console.log("loading : "+params.path);
 		try{
-			throw new Error('unknow error');
 			if(params.isSaved){
 				console.log("saving : " + params.path);
 				req = http.request(params,function(res){
@@ -432,7 +431,7 @@ WebMonkey.prototype = {
 	addError:function(e){
 		this.errorList.push({
 			errorInfo:e,
-			time:(new Date()).getTime();
+			time:(new Date()).getTime()
 		});
 	},
 	saveErrorInfo:function(){
